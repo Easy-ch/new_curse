@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type = "text/javascript" src = "C:/new_curse/jquery-3.7.0.js">
+    </script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>  
+    <div class="container">
+        <img class="img1" src="jaguar.jpeg" alt="">
+        <img class="img2" src="red.jpg" alt="">
+    </div>
+<script>
+    $('.img1').click(function(){
+        $('.img1').slideUp();
+        $('.img2').slideDown();
+    });
+    $('.img2').click(function(){
+        $('.img2').slideUp();
+        $('.img1').slideDown();
+    });
+  
+  
+
+</script>
+    
+</body>
+</html>
